@@ -4,6 +4,7 @@
   "description": "Repositório Acadêmico de Tailwind-Css",
   "main": "index.js",
   "scripts": {
+    "tailbuild": "npx tailwindcss-cli@latest build -i main.css -o src/css/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
